@@ -1,0 +1,68 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 200px 60px 60px;
+  color: white;
+}
+
+.hero-text {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.hero-explore {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.hero-explore p {
+  font-size: 18px;
+}
+
+.hero-explore img {
+  width: 30px;
+}
+
+.hero-dot-play {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-dots {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.hero-dot {
+  width: 15px;
+  height: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hero-dot.active {
+  background: white;
+}
+
+.hero-play {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-play img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.app {
+  height: 100vh;
+  position: relative;
+}
